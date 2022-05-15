@@ -64,7 +64,7 @@ function App() {
           <pre className="btn-tag">
             &lt;Button endIcon="local_grocery_store" /&gt;
           </pre>
-          <Button endIcon="start" />
+          <Button endIcon="local_grocery_store" />
         </div>
       </div>
       <div className="btn-container">
