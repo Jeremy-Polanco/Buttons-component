@@ -92,4 +92,4 @@ $ npm start
 
 ## Contact
 
-- GitHub [@Jeremy-Polanco](https://{github.com/Jeremy-Polanco})
+- GitHub [@Jeremy-Polanco](https://github.com/Jeremy-Polanco)
