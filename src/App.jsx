@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "./components/Button";
 import styled from "styled-components";
+import Footer from "./components/Footer";
 function App() {
   return (
     <Wrapper>
@@ -117,6 +118,13 @@ function App() {
           <Button color="danger" onHover />
         </div>
       </div>
+      <Footer />
+      <pre className="icons-resource">
+        Icons:{" "}
+        <a href="https://material.io/resources/icons/?style=round">
+          https://material.io/resources/icons/?style=round
+        </a>
+      </pre>
     </Wrapper>
   );
 }
@@ -127,7 +135,7 @@ const Wrapper = styled.main`
   padding: 2rem 4rem;
   .title {
     line-height: 36px;
-    color: #4f4f4f;
+    color: #a9a9a9;
     font-weight: 500;
     margin-bottom: 28px;
   }
@@ -145,6 +153,13 @@ const Wrapper = styled.main`
     grid-template-columns: repeat(4, 155px);
     grid-template-rows: auto;
     gap: 155px;
+  }
+  .icons-resource {
+    color: #828282;
+    a {
+      text-decoration: none;
+      color: #828282;
+    }
   }
 `;
 
