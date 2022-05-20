@@ -269,6 +269,11 @@ p {
     color: #ffffff;
     box-shadow: none;
   }
+  &:focus {
+    background: #3d5afe;
+    color: #ffffff;
+    box-shadow: none;
+  }
 }
 
 .disabled {
